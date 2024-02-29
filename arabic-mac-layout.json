@@ -1,0 +1,209 @@
+{
+    "description": "Arabic input modifications on specific device",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "input_sources": [
+                        {
+                            "language": "ar"
+                        }
+                    ],
+                    "type": "input_source_if"
+                },
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 50475,
+                            "vendor_id": 1133
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "close_bracket",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "v"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "quote",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "x"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "grave_accent_and_tilde",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "c"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "slash",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "z"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "period",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "b"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "comma",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "m"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "m",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "n",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "d",
+                    "modifiers": [
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "b",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "g"
+                },
+                {
+                    "key_code": "h"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "v",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "n"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "m",
+                    "modifiers": [
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
